@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Viewer</title>
+    <link rel="stylesheet" href="./Main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stock Market Viewer</h1>
+            <p>Explore Real-Time Stock Information</p>
+        </header>
+        
+        <div class="input-section">
+            <select id="companySelect" aria-label="Select Company">
+                <option value="">Select a company...</option>
+                <!-- Companies will be dynamically populated here -->
+            </select>
+            <button id="fetchButton" aria-label="Fetch Stock Data">
+                Fetch Stock Data
+            </button>
+        </div>
+
+        <div id="loader" class="loader" aria-hidden="true">
+            <div class="spinner"></div>
+            <p>Loading stock data...</p>
+        </div>
+
+        <div id="dataDisplay" class="data-display" aria-live="polite">
+            <!-- Stock data will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Stock data provided by Yahoo Finance</p>
+    </footer>
+
+    <script src="Main.js"></script>
+</body>
+</html>
