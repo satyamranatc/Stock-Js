@@ -29,22 +29,6 @@ A modern, real-time financial dashboard that displays market data, stock informa
   - Yahoo Finance API (yfinance)
   - Pandas
 
-## Project Structure
-
-```
-financial-dashboard/
-├── src/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── main.js
-│   ├── components/
-│   ├── assets/
-│   └── index.html
-├── public/
-├── main.py
-└── requirements.txt
-```
 
 ## Installation
 
